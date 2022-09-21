@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "PedidoB27";
+}
+
+<body class="body">
+    <section>
+        <center><h1 id="h1"><n>¡Regístra tu pedido!</n></h1></center>
+        <form class="PedidoC">
+            <center><input class="control" type="text" name="IdBebida" id="IdBebida" value="37" style="margin-top:5px;"></center>
+            <br />
+            <center><input class="control" type="text" name="IdPedido" id="IdPedido" placeholder="Digite su Codigo"></center>
+            <br />
+            <center><input class="control" type="text" name="CantidadBebida" id="CantidadBebida" placeholder="Cantidad de bebidas"></center>
+            <br />
+            <center><input class="control" type="number" name="TotalPagar" id="TotalPagar" placeholder="Total"></center>
+            <br />
+            <center><a id="btnGuardarP"><font color="black">Guardar</font></a></center>
+            <p />
+            <center><a class="Regresar" href="@Url.Action("Bebidas", "Cliente")"><font color="black">Regresar al menu</font></a></center>
+        </form>
+    </section>
+
+</body>
+
+@section scripts{
+    <script src="~/Scripts/js/scriptPedidoB.js"></script>
+    <script>
+            $("#btnGuardarP").click(function () {
+                RegistroPedidoB();
+                return false;
+            });
+    </script>
+}
+
+

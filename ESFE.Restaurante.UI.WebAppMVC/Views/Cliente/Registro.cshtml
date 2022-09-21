@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Registro";
+}
+
+<body class="body">
+    <section>
+        <input type="hidden" id="IdCliente" value="" />
+        <center><h1 id="h1"><n>¡Regístrate!</n></h1></center>
+        <form class="ClienteF">
+
+
+            <center><input class="control" type="text" name="Nombre" id="NombreCliente" placeholder="Nombre" style="margin-top:5px;"></center>
+            <br />
+            <center><input class="control" type="text" name="Apellido" id="ApellidoCliente" placeholder="Apellido"></center>
+            <br />
+            <center><input class="control" type="text" name="Dui" id="DuiCliente" placeholder="Numero de DUI"></center>
+            <br />
+            <center><input class="control" type="email" name="Gmail" id="GmailCliente" placeholder="Cuenta de Gmail"></center>
+            <br />
+            <center><input class="control" type="tel" name="Telefono" id="TelefonoCliente" placeholder="Numero de telefono"></center>
+            <br />
+            <center><a id="btnGuardarC"><font color="black">Guardar</font></a></center>
+            <p />
+            <center><a class="cancelar" href="@Url.Action("Index", "Cliente")"><font color="black">Cancelar</font></a></center>
+            <p />
+            @*<center><a id="btnModificarC"><font color="black">Modificar</font></a></center>*@
+
+        </form>
+    </section>
+
+</body>
+
+@section scripts{
+    <script src="~/Scripts/js/scriptsCliente.js"></script>
+    <script>
+        $("#btnGuardarC").click(function () {
+            GuardarRegistro();
+            return false;
+        });
+
+        $("#btnGuardarC").click(function () {
+            ClienteId();
+            return false;
+        });
+
+        //$("#btnModificarC").click(function () {
+        //    ActualizarCliente();
+        //    return false;
+        //});
+    </script>
+    
+}
+
+
+
+
+
+

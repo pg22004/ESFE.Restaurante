@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08D20596-542F-491D-A356-ED914DA5BEBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ESFE.Restaurante.UI.WF</RootNamespace>
+    <AssemblyName>ESFE.Restaurante.UI.WF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministarCliente.Designer.cs">
+      <DependentUpon>AdministarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarPedidoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarPedidoC.Designer.cs">
+      <DependentUpon>AdministrarPedidoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarTipoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarTipoC.Designer.cs">
+      <DependentUpon>AdministrarTipoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bienvenida.Designer.cs">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlAdministrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlAdministrar.Designer.cs">
+      <DependentUpon>ControlAdministrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarBebida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarBebida.Designer.cs">
+      <DependentUpon>AdministrarBebida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarCategoriaB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarCategoriaB.Designer.cs">
+      <DependentUpon>AdministrarCategoriaB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarCategoriaC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarCategoriaC.Designer.cs">
+      <DependentUpon>AdministrarCategoriaC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarComida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarComida.Designer.cs">
+      <DependentUpon>AdministrarComida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarEmpleado.Designer.cs">
+      <DependentUpon>AdministrarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarPedido.Designer.cs">
+      <DependentUpon>AdministrarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarPedidoB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarPedidoB.Designer.cs">
+      <DependentUpon>AdministrarPedidoB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarCliente.Designer.cs">
+      <DependentUpon>ModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaBebida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaBebida.Designer.cs">
+      <DependentUpon>NuevaBebida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaCategoriaB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaCategoriaB.Designer.cs">
+      <DependentUpon>NuevaCategoriaB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaCategoriaC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaCategoriaC.Designer.cs">
+      <DependentUpon>NuevaCategoriaC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaComida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaComida.Designer.cs">
+      <DependentUpon>NuevaComida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoEmpleado.Designer.cs">
+      <DependentUpon>NuevoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoPedido.Designer.cs">
+      <DependentUpon>NuevoPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoPedidoB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoPedidoB.Designer.cs">
+      <DependentUpon>NuevoPedidoB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoPedidoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoPedidoC.Designer.cs">
+      <DependentUpon>NuevoPedidoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoCargo.Designer.cs">
+      <DependentUpon>TipoCargo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdministarCliente.resx">
+      <DependentUpon>AdministarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarPedidoC.resx">
+      <DependentUpon>AdministrarPedidoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarBebida.resx">
+      <DependentUpon>AdministrarBebida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarCategoriaB.resx">
+      <DependentUpon>AdministrarCategoriaB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarCategoriaC.resx">
+      <DependentUpon>AdministrarCategoriaC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarComida.resx">
+      <DependentUpon>AdministrarComida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarEmpleado.resx">
+      <DependentUpon>AdministrarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarPedido.resx">
+      <DependentUpon>AdministrarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarPedidoB.resx">
+      <DependentUpon>AdministrarPedidoB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarTipoC.resx">
+      <DependentUpon>AdministrarTipoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bienvenida.resx">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlAdministrar.resx">
+      <DependentUpon>ControlAdministrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarCliente.resx">
+      <DependentUpon>ModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaBebida.resx">
+      <DependentUpon>NuevaBebida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaCategoriaB.resx">
+      <DependentUpon>NuevaCategoriaB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaCategoriaC.resx">
+      <DependentUpon>NuevaCategoriaC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaComida.resx">
+      <DependentUpon>NuevaComida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoEmpleado.resx">
+      <DependentUpon>NuevoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoPedido.resx">
+      <DependentUpon>NuevoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoPedidoB.resx">
+      <DependentUpon>NuevoPedidoB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoPedidoC.resx">
+      <DependentUpon>NuevoPedidoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoCargo.resx">
+      <DependentUpon>TipoCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ESFE.Restaurante.BL\ESFE.Restaurante.BL.csproj">
+      <Project>{1f235798-04e6-4690-b76d-f525a4ce231c}</Project>
+      <Name>ESFE.Restaurante.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESFE.Restaurante.EN\ESFE.Restaurante.EN.csproj">
+      <Project>{a3e31137-6fab-42c6-b043-18ca53b7ead7}</Project>
+      <Name>ESFE.Restaurante.EN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\p.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

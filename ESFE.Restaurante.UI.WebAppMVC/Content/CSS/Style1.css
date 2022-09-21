@@ -1,0 +1,3693 @@
+﻿
+.body {
+    background-image: url(../images/fondo0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#logo {
+    margin-top: 5%;
+    background-image: url(../images/logo0.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    width: 400px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Diseño de forms */
+.ClienteF {
+    background-color: whitesmoke;
+    height: 460px;
+    width: 300px;
+    position: absolute;
+    margin-left: 425px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 20px;
+}
+.PedidoF {
+    background-color: whitesmoke;
+    height: 313px;
+    width: 300px;
+    position: absolute;
+    margin-left: 425px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 20px;
+}
+.PedidoC {
+    background-color: whitesmoke;
+    height: 383px;
+    width: 300px;
+    position: absolute;
+    margin-left: 425px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 20px;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+input {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 40px;
+}
+#btnGuardarP {
+    font-size: 20px;
+    background-color: khaki;
+    width: 280px;
+    height: 40px;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+#btnGuardarC {
+    font-size: 20px;
+    background-color: khaki;
+    width: 280px;
+    height: 40px;
+    position: center;
+    display: flex;
+    align-items:center;
+   
+}
+#btnModificarC {
+    font-size: 20px;
+    background-color: khaki;
+    width: 280px;
+    height: 40px;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+.cancelar {
+    font-size: 20px;
+    background-color: indianred;
+    width: 280px;
+    height: 40px;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+.Regresar {
+    font-size: 20px;
+    background-color: cadetblue;
+    width: 280px;
+    height: 40px;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+.pedido {
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: cadetblue;
+    width: 50%;
+
+}
+#h1 {
+    background-color: cadetblue;
+}
+
+#bienvenida {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cadetblue
+}
+#imagen1 {
+    background-image: url(../images/lugar2.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+}
+/*#imagen2 {
+    background-image: url(../images/comida.jpeg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+
+}*/
+#h4 {
+    font-family: Calibri;
+    font-size: 20px;
+}
+.mapa {
+    background: #f3f1f3;
+    text-align: center;
+}
+.mapa h1 {
+        color: #4d0686;
+    }
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+nav a {
+    color: rgb(12, 149, 21);
+    font-size: larger;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+    nav ul li {
+        display: inline-table;
+    }
+
+.menu {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+}
+#Americano {
+    background-image: url(../images/americano.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Tipico {
+    background-image: url(../images/tipico.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Motuleno {
+    background-image: url(../images/motuleno.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#Salvadoreño {
+    background-image: url(../images/salvadoreno.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#desayuno {
+    background-image: url(../images/burrito.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height:235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Sonsonateco {
+    background-image: url(../images/sonsonateco.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Divorciado{
+    background-image: url(../images/huevos-divorciados.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Caballo{
+    background-image: url(../images/desayuno-a-caballo.jpg);
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Buenos {
+    background-image: url('../images/buenos dias.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Avena {
+    background-image: url('../images/Granola-2.png');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#agape {
+    background-image: url('../images/sandwich.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#ejecutivo {
+    background-image: url('../images/ejecutivo.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Real {
+    background-image: url('../images/real.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Americano {
+    background-image: url('../images/americano.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#agape2 {
+    background-image: url('../images/agape.jfif');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hamburguesa {
+    background-image: url('../images/hambuerguesa.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.descripcion {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 195px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.descripcion2 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 237px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 610px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.descripcion3 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 236px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1027px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.descripcion4 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1443px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.descripcion5 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1858px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.descripcion6 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2270px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcion:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+div .descripcion2:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+div .descripcion3:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+div .descripcion4:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+div .descripcion5:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+div .descripcion6:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+div .descripcion:hover h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div .descripcion:hover h4 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+div .descripcion2:hover h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div .descripcion2:hover h4 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+div .descripcion3:hover h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div .descripcion3:hover h4 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+div .descripcion4:hover h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div .descripcion4:hover h4 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+div .descripcion5:hover h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div .descripcion5:hover h4 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+div .descripcion6:hover h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div .descripcion6:hover h4 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+.desayuno h2 {
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.button {
+    width: 290px;
+    padding: 5px 30px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(12, 149, 21);
+}
+
+.content-foo {
+    text-align: center;
+}
+
+    .content-foo h4 {
+        color: rgb(12, 149, 21);
+        
+        border-bottom: 3px solid rgb(12, 149, 21);
+        
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .content-foo p {
+        color: rgb(12, 149, 21);
+        
+    }
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(12, 149, 21);
+}
+/*--------------------------------------------Bebidas------------------------------------------------*/
+#JugoN {
+    background-image: url('../images/jugo16onzas.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Natural {
+    background-image: url('../images/natural1.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#FozenCrowne {
+    background-image: url('../images/crown.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#FrozenFresa {
+    background-image: url('../images/frozenfresa.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#FrozenCoco {
+    background-image: url('../images/frozencoco.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Frozen {
+    background-image: url('../images/frozen3.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#limonadanatural {
+    background-image: url('../images/limonadanatural.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#limonadasoda {
+    background-image: url('../images/limonadasoda.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#limonadahierbabuena {
+    background-image: url('../images/limonadahierbabuena.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#naranjada {
+    background-image: url('../images/naranjada.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#naranjadasoda {
+    background-image: url('../images/Naranjadasoda.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#licuadopapaya {
+    background-image: url('../images/licuadopapaya.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#jugotomate {
+    background-image: url('../images/JugoTomate.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#refrescos {
+    background-image: url('../images/refrescos3.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#licuados {
+    background-image: url('../images/licuados3.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#frappecafe {
+    background-image: url('../images/frappe.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#refrescoensalada {
+    background-image: url('../images/refrecoensalada.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#batidoleche {
+    background-image: url('../images/batidoleche.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#horchata {
+    background-image: url('../images/horchata.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#refrescojamica {
+    background-image: url('../images/refrescojamica.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#frozenjamica {
+    background-image: url('../images/frozenjamica.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#gatorade {
+    background-image: url('../images/gatorade.png');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#gaseosa {
+    background-image: url('../images/gaseosas.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tehelado {
+    background-image: url('../images/tehelado.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#agua {
+    background-image: url('../images/agua.jpg');
+    display: flex;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#chocolateleche {
+    background-image: url('../images/Chococlateleche.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#chocolate {
+    background-image: url('../images/chocolate.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#lechecaliente {
+    background-image: url('../images/lechecaliente.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#lechehelada {
+    background-image: url('../images/leche1.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#cafeleche {
+    background-image: url('../images/caféleche.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Cafe {
+    background-image: url('../images/cafe.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tecaliente {
+    background-image: url('../images/calientete.jpg');
+    display: flex;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*--------------------------------------------Describcion de las Bebidas------------------------------------------------*/
+.descripcionb1 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 195px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb1:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb1:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb1:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb2 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 610px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb2:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb2:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb2:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb3 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1027px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb3:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb3:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb3:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb4 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1443px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb4:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb4:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb4:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb5 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1858px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb5:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb5:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb5:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb6 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2270px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb6:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb6:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb6:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb7 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2690px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb7:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb7:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb7:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb8 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3105px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb8:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb8:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb8:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb9 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3520px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb9:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb9:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb9:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb10 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 4005px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb10:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb10:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb10:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+.descripcionb11 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 4420px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb11:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb11:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb11:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionb12 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 4837px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionb12:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb12:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb12:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+#boquitas {
+    background-image: url('../images/americano.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div .descripcionb12:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionb12:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionb12:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+/*--------------------------------------------Bebidas Alcoholicas------------------------------------------------*/
+
+#margarita {
+    background-image: url('../images/margarita1.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pinacolada {
+    background-image: url('../images/pinacolada.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#mojitocubano {
+    background-image: url('../images/mojitocubano.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#micheladacorona {
+    background-image: url('../images/micheladacorona.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#micheladasuprema {
+    background-image: url('../images/micheladasuprema.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#micheladapilsener {
+    background-image: url('../images/micheladapilsener.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#micheladagolden {
+    background-image: url('../images/micheladagolden2.jpg');
+    display: flex;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pilsener {
+    background-image: url('../images/pilsener.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#suprema {
+    background-image: url('../images/suprema.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#corona {
+    background-image: url('../images/corona.png');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#golden {
+    background-image: url('../images/golden.jpg');
+    display: flex;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ronflorcana {
+    background-image: url('../images/ronflorcana.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ronbocardi {
+    background-image: url('../images/ronbocardi.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#vodkafinlandia {
+    background-image: url('../images/vobkafinlandia.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tequilajosecuervo {
+    background-image: url('../images/josecuervo.jpg');
+    display: block;
+    margin-left: 410px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#whishyjonniewalker {
+    background-image: url('../images/whiskyjohnniewalker.jpg');
+    display: block;
+    margin-left: 410px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#renebarbier {
+    background-image: url('../images/rene.png');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sangretoro {
+    background-image: url('../images/sangretoro.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#santaelena {
+    background-image: url('../images/santaelena.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*--------------------------------------------Descripcion de Alcoholicas------------------------------------------------*/
+.descripcionba1 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 255px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba1:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba1:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba1:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba2 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 670px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba2:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba2:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba2:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba3 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1085px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba3:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba3:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba3:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba4 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1570px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba4:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba4:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba4:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba5 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1985px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba5:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba5:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba5:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba6 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2475px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba6:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba6:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba6:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba7 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2889px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba7:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba7:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba7:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionba8 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3375px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionba8:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionba8:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionba8:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+/*--------------------------------------------ENTRADAS------------------------------------------------*/
+#boquita {
+    background-image: url('../images/BBoquitas.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Boquitas {
+    background-image: url('../images/boquitas.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tortillafrijoles {
+    background-image: url('../images/tortillaconfrijol.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#consome {
+    background-image: url('../images/consome.jpg');
+    display: block;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#paipilla {
+    background-image: url('../images/sopaipilla.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fruta {
+    background-image: url('../images/platofrutas.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#higo {
+    background-image: url('../images/pasteldehigo.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#manzana {
+    background-image: url('../images/pasteldemanzana.jpg');
+    display: block;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#budinlaura {
+    background-image: url('../images/bbudin.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#quesadillas {
+    background-image: url('../images/Quesadilla.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#budinespecial {
+    background-image: url('../images/Budinespecial.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*--------------------------------------------Descripcion de las entradas------------------------------------------------*/
+.descripcionE1 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 195px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionE1:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionE1:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionE1:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionE2 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 610px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionE2:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionE2:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionE2:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionE3 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1095px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionE3:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionE3:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionE3:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionE4 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1510px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionE4:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionE4:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionE4:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionE5 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1930px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionE5:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionE5:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionE5:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+footer {
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(12, 149, 21);
+}
+
+.content-foo {
+    text-align: center;
+}
+
+    .content-foo h4 {
+        color: rgb(12, 149, 21);
+        border-bottom: 3px solid rgb(12, 149, 21);
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .content-foo p {
+        color: rgb(12, 149, 21);
+    }
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(12, 149, 21);
+}
+
+.bebida {
+    font-size: 90px;
+    text-align: center;
+    color: #FFE819;
+    font-family: Georgia;
+    background-color: black;
+    width: 1195px;
+}
+/*---------------------------------------Almuerzos y Cenas Partes 1------------------------------------------------*/
+
+#Sopacamarones {
+    background-image: url('../images/SopaCamarones.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Sopapata {
+    background-image: url('../images/sopapata.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Cremacebolla {
+    background-image: url('../images/cremacebolla.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Cremapapa {
+    background-image: url('../images/cremapapa.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Crematoamate {
+    background-image: url('../images/crematomate.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Cremabrocoli {
+    background-image: url('../images/cremabrocoli.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Ensaladaagape {
+    background-image: url('../images/ensaladaagape.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Ensaladaprimavera {
+    background-image: url('../images/ensaladaprimavera.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Ensaladagriega {
+    background-image: url('../images/ensaladagriega.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Spaghetticamarones {
+    background-image: url('../images/espaguetiscamaroneszucchini.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Spaghetticarbonara {
+    background-image: url('../images/EspaguetisCarbonara.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Spaghettibolognesa {
+    background-image: url('../images/espaguetibolonesa.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Spaghettialfredo {
+    background-image: url('../images/spagetipollochampinones.jpg');
+    display: block;
+    margin-left: 400px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Arrozcantones {
+    background-image: url('../images/arrozcantones.jpg');
+    display: block;
+    margin-left: 400px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Pescadoagape {
+    background-image: url('../images/pesacdoagape.png');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Fileteempanizado {
+    background-image: url('../images/filetepescadoempanizado.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Camaronesempanizados {
+    background-image: url('../images/camaronesempanizados.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Filetematequilla {
+    background-image: url('../images/filetepescadomantequilla.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Salmonmantequilla {
+    background-image: url('../images/salmon-mantequilla.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Filetepapillote {
+    background-image: url('../images/pesacdoPapillote.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Coctelnatural {
+    background-image: url('../images/Coctel-de-camaron.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#Filetecamarones {
+    background-image: url('../images/filete-salsa-de-camarones.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Camaronesajillo {
+    background-image: url('../images/camaronesajillo.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Coctelrosada {
+    background-image: url('../images/camarones-en-salsa-rosada2.jpg');
+    display: flex;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*--------------------------------------------Descripcion Almuerzos y Cenas Partes 1------------------------------------------------*/
+.descripcionAC1 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 255px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC1:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC1:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC1:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC2 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 670px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC2:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC2:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC2:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC3 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1155px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC3:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC3:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC3:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC4 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1642px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC4:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC4:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC4:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC5 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2055px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC5:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC5:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC5:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC6 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2542px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC6:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC6:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC6:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC7 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2956px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC7:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC7:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC7:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC8 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3374px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC8:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC8:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC8:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionAC9 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 405px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3785px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionAC9:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionAC9:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionAC9:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+/*---------------------------------------Almuerzos y Cenas Parte 2-----------------------------------*/
+#Carneypollo {
+    background-image: url('../images/carneypollo1.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fileteJalapeña {
+    background-image: url('../images/FileteSJalapeña2.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Conejoajillo {
+    background-image: url('../images/conejoajillo3.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Lomodeaguja {
+    background-image: url('../images/Lomodeaguja4.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#MenuCampesino {
+    background-image: url('../images/MenuCampesino5.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#CostillaTamarindo {
+    background-image: url('../images/costillatamarindo6.jfif');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ChurrascoAgape {
+    background-image: url('../images/churrascoagape7.png');
+    display: block;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#FileteEncebollado {
+    background-image: url('../images/fileteencebollado8.jpg');
+    display: block;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#CordonBlue {
+    background-image: url('../images/cordonblue9.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#PechugaCilantro {
+    background-image: url('../images/pechugaensacilantro10.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#PechugaLaura {
+    background-image: url('../images/pechugalaura11.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#PechugaEncebollada {
+    background-image: url('../images/pechugaencebollada12.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#LaVeracruzana {
+    background-image: url('../images/Laveracruzana13.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#AlaPlancha {
+    background-image: url('../images/alaplancha14.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Infantil1 {
+    background-image: url('../images/Infantil1N.jpg');
+    display: block;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Infantil2 {
+    background-image: url('../images/infantil2.jpg');
+    display: block;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#PepitoCarne {
+    background-image: url('../images/pepitocarne.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#SteakBurger {
+    background-image: url('../images/steakburger.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#PepitoPollo {
+    background-image: url('../images/pepitopollo.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ChickenBurger {
+    background-image: url('../images/chickenburger.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ClubSandwich {
+    background-image: url('../images/ClubSandwich.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#SandwichJamon {
+    background-image: url('../images/sandwinchDJ.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#SandwichPollo {
+    background-image: url('../images/sanddobleP.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Sandwichsencillo {
+    background-image: url('../images/sandwichJ.jpg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#SandwichsencilloPollo {
+    background-image: url('../images/sandwichP.jpeg');
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*--------------------------------------------Descripcion de Almuerzos y Cenas partes2------------------------------------------------*/
+.descripcionACP1 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 255px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP1:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP1:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP1:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP2 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 670px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP2:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP2:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP2:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP3 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1085px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP3:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP3:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP3:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP4 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1570px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP4:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP4:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP4:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP5 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 1985px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP5:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP5:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP5:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP6 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 130px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2475px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP6:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP6:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP6:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP7 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 2955px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP7:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP7:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP7:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP8 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3375px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP8:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP8:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP8:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+.descripcionACP9 {
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    margin-left: 65px;
+    width: 350px;
+    height: 235px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #ffe60095;
+    top: 3787px;
+    transition: all .3s;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+div .descripcionACP9:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+    div .descripcionACP9:hover h3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+    div .descripcionACP9:hover h4 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+
+
+
+footer {
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(12, 149, 21);
+}
+
+.content-foo {
+    text-align: center;
+}
+
+    .content-foo h4 {
+        color: rgb(12, 149, 21);
+        border-bottom: 3px solid rgb(12, 149, 21);
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .content-foo p {
+        color: rgb(12, 149, 21);
+    }
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(12, 149, 21);
+}
+
+.bebida {
+    font-size: 90px;
+    text-align: center;
+    color: #FFE819;
+    font-family: Georgia;
+    background-color: black;
+    width: 1195px;
+}
+
+

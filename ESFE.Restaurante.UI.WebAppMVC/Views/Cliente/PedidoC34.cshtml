@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "PedidoC34";
+}
+
+<body class="body">
+    <section>
+        <center><h1 id="h1"><n>¡Regístra tu pedido!</n></h1></center>
+        <form class="PedidoC">
+            <center><input class="control" type="text" name="IdComida" id="IdComida" value="39" style="margin-top:5px;"></center>
+            <br />
+            <center><input class="control" type="text" name="IdPedido" id="IdPedido" placeholder="Digite su Codigo"></center>
+            <br />
+            <center><input class="control" type="text" name="CantidadPlatos" id="CantidadPlatos" placeholder="Cantidad de platos"></center>
+            <br />
+            <center><input class="control" type="number" name="TotalPagar" id="TotalPagar" placeholder="Total"></center>
+            <br />
+            <center><a id="btnGuardarP"><font color="black">Guardar</font></a></center>
+            <p />
+            <center><a class="Regresar" href="@Url.Action("AlmuerzosCenas1", "Cliente")"><font color="black">Regresar al menu</font></a></center>
+        </form>
+    </section>
+
+</body>
+
+@section scripts{
+    <script src="~/Scripts/js/scriptPedidoC.js"></script>
+    <script>
+        $("#btnGuardarP").click(function () {
+            RegistroPedidoC();
+            return false;
+        });
+    </script>
+}
+

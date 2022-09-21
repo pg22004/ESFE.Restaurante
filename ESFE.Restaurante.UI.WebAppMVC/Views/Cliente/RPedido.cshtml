@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "RPedido";
+}
+
+<body class="body">
+    <section>
+        <center><h1 id="h1"><n>¡Regístra tu pedido!</n></h1></center>
+        <form class="PedidoF">
+            <center><input class="control" type="text" name="IdCliente" id="IdCliente" placeholder="Digite su codigo" style="margin-top:5px;"></center>
+            <br />
+            <center><input class="control" type="text" name="IdEmpleado" id="IdEmpleado" value="2"></center>
+            <br />
+            <center><input class="control" type="datetime-local" name="FechaHora" id="FechaHora" placeholder="Fecha"></center>
+            <br />
+            <center><a id="btnGuardarP"><font color="black">Guardar</font></a></center>
+                        
+        </form>
+    </section>
+
+</body>
+@section scripts{
+    <script src="~/Scripts/js/scriptPedido.js"></script>
+    <script>
+        $("#btnGuardarP").click(function () {
+            RegistroPedido();
+            return false;
+        });
+    </script>
+}
+

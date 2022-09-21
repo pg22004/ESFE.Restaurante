@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AECFFF62-D174-4112-A994-DE6F37D8F9C9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESFE.Restaurante.UI.WebAppMVC</RootNamespace>
+    <AssemblyName>ESFE.Restaurante.UI.WebAppMVC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44397</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\PedidoBController.cs" />
+    <Compile Include="Controllers\PedidoCController.cs" />
+    <Compile Include="Controllers\PedidoController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\Style1.css" />
+    <Content Include="Content\images\agape.jfif" />
+    <Content Include="Content\images\agua.jpg" />
+    <Content Include="Content\images\alaplancha14.jpg" />
+    <Content Include="Content\images\americano.jpg" />
+    <Content Include="Content\images\arrozcantones.jpg" />
+    <Content Include="Content\images\batidoleche.jpg" />
+    <Content Include="Content\images\BBoquitas.jpg" />
+    <Content Include="Content\images\bbudin.jpg" />
+    <Content Include="Content\images\body.jpg" />
+    <Content Include="Content\images\boquitas.jpg" />
+    <Content Include="Content\images\Budinespecial.jpg" />
+    <Content Include="Content\images\buenos dias.jpg" />
+    <Content Include="Content\images\burrito.jpg" />
+    <Content Include="Content\images\cafe.jpg" />
+    <Content Include="Content\images\caféleche.jpeg" />
+    <Content Include="Content\images\calientete.jpg" />
+    <Content Include="Content\images\camarones-en-salsa-rosada2.jpg" />
+    <Content Include="Content\images\camaronesajillo.jpg" />
+    <Content Include="Content\images\camaronesempanizados.jpg" />
+    <Content Include="Content\images\carneypollo1.jpg" />
+    <Content Include="Content\images\chickenburger.jpg" />
+    <Content Include="Content\images\Chococlateleche.jpg" />
+    <Content Include="Content\images\chocolate.jpg" />
+    <Content Include="Content\images\churrascoagape7.png" />
+    <Content Include="Content\images\ClubSandwich.jpg" />
+    <Content Include="Content\images\Coctel-de-camaron.jpg" />
+    <Content Include="Content\images\comida.jpeg" />
+    <Content Include="Content\images\comida1.jpg" />
+    <Content Include="Content\images\conejoajillo3.jpg" />
+    <Content Include="Content\images\consome.jpg" />
+    <Content Include="Content\images\cordonblue9.jpg" />
+    <Content Include="Content\images\corona.png" />
+    <Content Include="Content\images\costillatamarindo6.jfif" />
+    <Content Include="Content\images\cremabrocoli.jpg" />
+    <Content Include="Content\images\cremacebolla.jpeg" />
+    <Content Include="Content\images\cremapapa.jpg" />
+    <Content Include="Content\images\crematomate.jpg" />
+    <Content Include="Content\images\crown.jpg" />
+    <Content Include="Content\images\desayuno-a-caballo.jpg" />
+    <Content Include="Content\images\ejecutivo.jpg" />
+    <Content Include="Content\images\ensaladaagape.jpg" />
+    <Content Include="Content\images\ensaladagriega.jpg" />
+    <Content Include="Content\images\ensaladaprimavera.jpg" />
+    <Content Include="Content\images\espaguetibolonesa.jpg" />
+    <Content Include="Content\images\espaguetiscamaroneszucchini.jpg" />
+    <Content Include="Content\images\EspaguetisCarbonara.jpg" />
+    <Content Include="Content\images\filete-salsa-de-camarones.jpg" />
+    <Content Include="Content\images\fileteencebollado8.jpg" />
+    <Content Include="Content\images\filetepescadoempanizado.jpg" />
+    <Content Include="Content\images\filetepescadomantequilla.jpg" />
+    <Content Include="Content\images\FileteSJalapeña2.jpg" />
+    <Content Include="Content\images\fondo.jpg" />
+    <Content Include="Content\images\fondo0.jpg" />
+    <Content Include="Content\images\fonfo1.jpg" />
+    <Content Include="Content\images\frappe.jpg" />
+    <Content Include="Content\images\frozen3.jpg" />
+    <Content Include="Content\images\frozencoco.jpeg" />
+    <Content Include="Content\images\frozenfresa.jpeg" />
+    <Content Include="Content\images\frozenjamica.jpg" />
+    <Content Include="Content\images\frozenmelon.jpeg" />
+    <Content Include="Content\images\frozenpiña.jpeg" />
+    <Content Include="Content\images\frozensandia.jpeg" />
+    <Content Include="Content\images\gaseosas.jpeg" />
+    <Content Include="Content\images\gatorade.png" />
+    <Content Include="Content\images\golden.jpg" />
+    <Content Include="Content\images\Granola-2.png" />
+    <Content Include="Content\images\hambuerguesa.jpg" />
+    <Content Include="Content\images\horchata.jpg" />
+    <Content Include="Content\images\huevos-divorciados.jpg" />
+    <Content Include="Content\images\Infantil1N.jpg" />
+    <Content Include="Content\images\infantil2.jpg" />
+    <Content Include="Content\images\josecuervo.jpg" />
+    <Content Include="Content\images\jugo16onzas.jpg" />
+    <Content Include="Content\images\JugoTomate.jpg" />
+    <Content Include="Content\images\Laveracruzana13.jpg" />
+    <Content Include="Content\images\leche1.jpeg" />
+    <Content Include="Content\images\lechecaliente.jpg" />
+    <Content Include="Content\images\licuadococo.jpg" />
+    <Content Include="Content\images\licuadomelon.jpg" />
+    <Content Include="Content\images\licuadopapaya.jpeg" />
+    <Content Include="Content\images\licuadopina.jpg" />
+    <Content Include="Content\images\licuados3.jpg" />
+    <Content Include="Content\images\licuadosandia.jpg" />
+    <Content Include="Content\images\licuadozapote.jpg" />
+    <Content Include="Content\images\limonadahierbabuena.jpeg" />
+    <Content Include="Content\images\limonadanatural.jpeg" />
+    <Content Include="Content\images\limonadasoda.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\logo0.png" />
+    <Content Include="Content\images\logo1.png" />
+    <Content Include="Content\images\Lomodeaguja4.jpg" />
+    <Content Include="Content\images\lugar.jpg" />
+    <Content Include="Content\images\lugar2.jpg" />
+    <Content Include="Content\images\margarita1.jpg" />
+    <Content Include="Content\images\medioamericano.jpg" />
+    <Content Include="Content\images\menu.jpg" />
+    <Content Include="Content\images\MenuCampesino5.jpg" />
+    <Content Include="Content\images\micheladacorona.jpg" />
+    <Content Include="Content\images\micheladagolden2.jpg" />
+    <Content Include="Content\images\micheladapilsener.jpg" />
+    <Content Include="Content\images\micheladasuprema.jpg" />
+    <Content Include="Content\images\mojitocubano.jpg" />
+    <Content Include="Content\images\motuleno.jpg" />
+    <Content Include="Content\images\naranjada.jpg" />
+    <Content Include="Content\images\Naranjadasoda.jpg" />
+    <Content Include="Content\images\natural1.jpeg" />
+    <Content Include="Content\images\pasteldehigo.jpg" />
+    <Content Include="Content\images\pasteldemanzana.jpg" />
+    <Content Include="Content\images\pechugaencebollada12.jpg" />
+    <Content Include="Content\images\pechugaensacilantro10.jpg" />
+    <Content Include="Content\images\pechugalaura11.jpg" />
+    <Content Include="Content\images\pepitocarne.jpg" />
+    <Content Include="Content\images\pepitopollo.jpg" />
+    <Content Include="Content\images\pesacdoagape.png" />
+    <Content Include="Content\images\pesacdoPapillote.jpg" />
+    <Content Include="Content\images\pilsener.jpg" />
+    <Content Include="Content\images\pinacolada.jpg" />
+    <Content Include="Content\images\platofrutas.jpg" />
+    <Content Include="Content\images\Quesadilla.jpg" />
+    <Content Include="Content\images\real.jpg" />
+    <Content Include="Content\images\refrecoensalada.jpg" />
+    <Content Include="Content\images\refrecopina.jpg" />
+    <Content Include="Content\images\refrescococo.jpeg" />
+    <Content Include="Content\images\refrescojamica.jpg" />
+    <Content Include="Content\images\refrescomelon.jpg" />
+    <Content Include="Content\images\refrescos3.jpg" />
+    <Content Include="Content\images\rene.png" />
+    <Content Include="Content\images\renebarbier.jfif" />
+    <Content Include="Content\images\rerescosandia.jpeg" />
+    <Content Include="Content\images\ronbocardi.jpg" />
+    <Content Include="Content\images\ronflorcana.jpg" />
+    <Content Include="Content\images\salmon-mantequilla.jpg" />
+    <Content Include="Content\images\salvadoreno.jpg" />
+    <Content Include="Content\images\sanddobleP.jpg" />
+    <Content Include="Content\images\sandwich.jpeg" />
+    <Content Include="Content\images\sandwichJ.jpg" />
+    <Content Include="Content\images\sandwichP.jpeg" />
+    <Content Include="Content\images\sandwinchDJ.jpg" />
+    <Content Include="Content\images\sangretoro.jpg" />
+    <Content Include="Content\images\santaelena.jpg" />
+    <Content Include="Content\images\sonsonateco.jpg" />
+    <Content Include="Content\images\SopaCamarones.jpg" />
+    <Content Include="Content\images\sopaipilla.jpg" />
+    <Content Include="Content\images\sopapata.jpg" />
+    <Content Include="Content\images\spagetipollochampinones.jpg" />
+    <Content Include="Content\images\steakburger.jpg" />
+    <Content Include="Content\images\suprema.jpg" />
+    <Content Include="Content\images\tehelado.jpg" />
+    <Content Include="Content\images\tipico.jpg" />
+    <Content Include="Content\images\tortillaconfrijol.jpg" />
+    <Content Include="Content\images\vobkafinlandia.jpg" />
+    <Content Include="Content\images\whiskyjohnniewalker.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\images\lechehelda.webp" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\scriptPedido.js" />
+    <Content Include="Scripts\js\scriptPedidoB.js" />
+    <Content Include="Scripts\js\scriptPedidoC.js" />
+    <Content Include="Scripts\js\scriptsCliente.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Cliente\Registro.cshtml" />
+    <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Cliente\Nosotros.cshtml" />
+    <Content Include="Views\Cliente\Menu.cshtml" />
+    <Content Include="Views\Cliente\PedidoB.cshtml" />
+    <Content Include="Views\Cliente\PedidoC.cshtml" />
+    <Content Include="Views\Cliente\RPedido.cshtml" />
+    <Content Include="Views\Cliente\PedidoC2.cshtml" />
+    <Content Include="Views\Cliente\PedidoC3.cshtml" />
+    <Content Include="Views\Cliente\PedidoC4.cshtml" />
+    <Content Include="Views\Cliente\PedidoC5.cshtml" />
+    <Content Include="Views\Cliente\PedidoC6.cshtml" />
+    <Content Include="Views\Cliente\PedidoC7.cshtml" />
+    <Content Include="Views\Cliente\PedidoC8.cshtml" />
+    <Content Include="Views\Cliente\PedidoC9.cshtml" />
+    <Content Include="Views\Cliente\PedidoC10.cshtml" />
+    <Content Include="Views\Cliente\PedidoC11.cshtml" />
+    <Content Include="Views\Cliente\PedidoC12.cshtml" />
+    <Content Include="Views\Cliente\PedidoC13.cshtml" />
+    <Content Include="Views\Cliente\PedidoC14.cshtml" />
+    <Content Include="Views\Cliente\PedidoC15.cshtml" />
+    <Content Include="Views\Cliente\PedidoC16.cshtml" />
+    <Content Include="Views\Cliente\PedidoC17.cshtml" />
+    <Content Include="Views\Cliente\PedidoC18.cshtml" />
+    <Content Include="Views\Cliente\PedidoC19.cshtml" />
+    <Content Include="Views\Cliente\PedidoC20.cshtml" />
+    <Content Include="Views\Cliente\PedidoC21.cshtml" />
+    <Content Include="Views\Cliente\PedidoC22.cshtml" />
+    <Content Include="Views\Cliente\PedidoC23.cshtml" />
+    <Content Include="Views\Cliente\PedidoC24.cshtml" />
+    <Content Include="Views\Cliente\PedidoC25.cshtml" />
+    <Content Include="Views\Cliente\PedidoC26.cshtml" />
+    <Content Include="Views\Cliente\Bebidas.cshtml" />
+    <Content Include="Views\Cliente\BebidasAlcoholicas.cshtml" />
+    <Content Include="Views\Cliente\Entradaspostres.cshtml" />
+    <Content Include="Views\Cliente\PedidoB2.cshtml" />
+    <Content Include="Views\Cliente\PedidoB3.cshtml" />
+    <Content Include="Views\Cliente\PedidoB4.cshtml" />
+    <Content Include="Views\Cliente\PedidoB5.cshtml" />
+    <Content Include="Views\Cliente\PedidoB6.cshtml" />
+    <Content Include="Views\Cliente\PedidoB7.cshtml" />
+    <Content Include="Views\Cliente\PedidoB8.cshtml" />
+    <Content Include="Views\Cliente\PedidoB9.cshtml" />
+    <Content Include="Views\Cliente\PedidoB10.cshtml" />
+    <Content Include="Views\Cliente\PedidoB11.cshtml" />
+    <Content Include="Views\Cliente\PedidoB12.cshtml" />
+    <Content Include="Views\Cliente\PedidoB13.cshtml" />
+    <Content Include="Views\Cliente\PedidoB14.cshtml" />
+    <Content Include="Views\Cliente\PedidoB15.cshtml" />
+    <Content Include="Views\Cliente\PedidoB16.cshtml" />
+    <Content Include="Views\Cliente\PedidoB17.cshtml" />
+    <Content Include="Views\Cliente\PedidoB18.cshtml" />
+    <Content Include="Views\Cliente\PedidoB19.cshtml" />
+    <Content Include="Views\Cliente\PedidoB20.cshtml" />
+    <Content Include="Views\Cliente\PedidoB21.cshtml" />
+    <Content Include="Views\Cliente\PedidoB22.cshtml" />
+    <Content Include="Views\Cliente\PedidoB23.cshtml" />
+    <Content Include="Views\Cliente\PedidoB24.cshtml" />
+    <Content Include="Views\Cliente\PedidoB25.cshtml" />
+    <Content Include="Views\Cliente\PedidoB26.cshtml" />
+    <Content Include="Views\Cliente\PedidoB27.cshtml" />
+    <Content Include="Views\Cliente\PedidoB28.cshtml" />
+    <Content Include="Views\Cliente\PedidoB29.cshtml" />
+    <Content Include="Views\Cliente\PedidoB30.cshtml" />
+    <Content Include="Views\Cliente\PedidoB31.cshtml" />
+    <Content Include="Views\Cliente\PedidoB32.cshtml" />
+    <Content Include="Views\Cliente\PedidoC27.cshtml" />
+    <Content Include="Views\Cliente\PedidoC28.cshtml" />
+    <Content Include="Views\Cliente\PedidoC29.cshtml" />
+    <Content Include="Views\Cliente\PedidoC30.cshtml" />
+    <Content Include="Views\Cliente\PedidoC31.cshtml" />
+    <Content Include="Views\Cliente\PedidoC32.cshtml" />
+    <Content Include="Views\Cliente\PedidoB33.cshtml" />
+    <Content Include="Views\Cliente\PedidoB34.cshtml" />
+    <Content Include="Views\Cliente\PedidoB35.cshtml" />
+    <Content Include="Views\Cliente\PedidoB36.cshtml" />
+    <Content Include="Views\Cliente\PedidoB37.cshtml" />
+    <Content Include="Views\Cliente\PedidoB38.cshtml" />
+    <Content Include="Views\Cliente\PedidoB39.cshtml" />
+    <Content Include="Views\Cliente\PedidoB40.cshtml" />
+    <Content Include="Views\Cliente\PedidoB41.cshtml" />
+    <Content Include="Views\Cliente\PedidoB42.cshtml" />
+    <Content Include="Views\Cliente\PedidoB43.cshtml" />
+    <Content Include="Views\Cliente\PedidoB44.cshtml" />
+    <Content Include="Views\Cliente\PedidoB45.cshtml" />
+    <Content Include="Views\Cliente\PedidoB46.cshtml" />
+    <Content Include="Views\Cliente\PedidoB47.cshtml" />
+    <Content Include="Views\Cliente\PedidoB48.cshtml" />
+    <Content Include="Views\Cliente\PedidoB49.cshtml" />
+    <Content Include="Views\Cliente\PedidoB50.cshtml" />
+    <Content Include="Views\Cliente\PedidoB51.cshtml" />
+    <Content Include="Views\Cliente\AlmuerzosCenas1.cshtml" />
+    <Content Include="Views\Cliente\AlmuerzoCenas2.cshtml" />
+    <Content Include="Views\Cliente\PedidoC33.cshtml" />
+    <Content Include="Views\Cliente\PedidoC34.cshtml" />
+    <Content Include="Views\Cliente\PedidoC35.cshtml" />
+    <Content Include="Views\Cliente\PedidoC36.cshtml" />
+    <Content Include="Views\Cliente\PedidoC37.cshtml" />
+    <Content Include="Views\Cliente\PedidoC38.cshtml" />
+    <Content Include="Views\Cliente\PedidoC39.cshtml" />
+    <Content Include="Views\Cliente\PedidoC40.cshtml" />
+    <Content Include="Views\Cliente\PedidoC41.cshtml" />
+    <Content Include="Views\Cliente\PedidoC42.cshtml" />
+    <Content Include="Views\Cliente\PedidoC43.cshtml" />
+    <Content Include="Views\Cliente\PedidoC44.cshtml" />
+    <Content Include="Views\Cliente\PedidoC45.cshtml" />
+    <Content Include="Views\Cliente\PedidoC46.cshtml" />
+    <Content Include="Views\Cliente\PedidoC47.cshtml" />
+    <Content Include="Views\Cliente\PedidoC48.cshtml" />
+    <Content Include="Views\Cliente\PedidoC49.cshtml" />
+    <Content Include="Views\Cliente\PedidoC50.cshtml" />
+    <Content Include="Views\Cliente\PedidoC51.cshtml" />
+    <Content Include="Views\Cliente\PedidoC52.cshtml" />
+    <Content Include="Views\Cliente\PedidoC53.cshtml" />
+    <Content Include="Views\Cliente\PedidoC54.cshtml" />
+    <Content Include="Views\Cliente\PedidoC55.cshtml" />
+    <Content Include="Views\Cliente\PedidoC56.cshtml" />
+    <Content Include="Views\Cliente\PedidoC57.cshtml" />
+    <Content Include="Views\Cliente\PedidoC58.cshtml" />
+    <Content Include="Views\Cliente\PedidoC59.cshtml" />
+    <Content Include="Views\Cliente\PedidoC60.cshtml" />
+    <Content Include="Views\Cliente\PedidoC61.cshtml" />
+    <Content Include="Views\Cliente\PedidoC62.cshtml" />
+    <Content Include="Views\Cliente\PedidoC63.cshtml" />
+    <Content Include="Views\Cliente\PedidoC64.cshtml" />
+    <Content Include="Views\Cliente\PedidoC65.cshtml" />
+    <Content Include="Views\Cliente\PedidoC66.cshtml" />
+    <Content Include="Views\Cliente\PedidoC67.cshtml" />
+    <Content Include="Views\Cliente\PedidoC68.cshtml" />
+    <Content Include="Views\Cliente\PedidoC69.cshtml" />
+    <Content Include="Views\Cliente\PedidoC80.cshtml" />
+    <Content Include="Views\Cliente\PedidoC81.cshtml" />
+    <Content Include="Views\Cliente\PedidoC82.cshtml" />
+    <Content Include="Views\Cliente\PedidoC83.cshtml" />
+    <Content Include="Views\Cliente\PedidoC84.cshtml" />
+    <Content Include="Views\Cliente\PedidoC85.cshtml" />
+    <Content Include="Views\Cliente\PedidoC86.cshtml" />
+    <Content Include="Views\Cliente\PedidoC87.cshtml" />
+    <Content Include="Views\Cliente\PedidoC88.cshtml" />
+    <Content Include="Views\Cliente\PedidoC89.cshtml" />
+    <Content Include="Views\Cliente\PedidoC90.cshtml" />
+    <Content Include="Views\Cliente\PedidoC91.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\PedidoB\" />
+    <Folder Include="Views\PedidoC\" />
+    <Folder Include="Views\Pedido\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ESFE.Restaurante.BL\ESFE.Restaurante.BL.csproj">
+      <Project>{1f235798-04e6-4690-b76d-f525a4ce231c}</Project>
+      <Name>ESFE.Restaurante.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESFE.Restaurante.EN\ESFE.Restaurante.EN.csproj">
+      <Project>{a3e31137-6fab-42c6-b043-18ca53b7ead7}</Project>
+      <Name>ESFE.Restaurante.EN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58897</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44397/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
